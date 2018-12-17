@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{324741D8-EDB5-4FCE-9F36-BC6235A5836F}</ProjectGuid>
+    <Description>SimpleXam.CircleViewPlugin</Description>
+    <PackageId>SimpleXam.CircleViewPlugin</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>thomasbartleet</Authors>
+    <DevelopmentDependency>false</DevelopmentDependency>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SimpleXam.CircleViewPlugin</RootNamespace>
+    <UsePartialTypes>false</UsePartialTypes>
+    <AssemblyName>SimpleXam.CircleViewPlugin.NuGet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleXam.CircleViewPlugin.Android\SimpleXam.CircleViewPlugin.Android.csproj">
+      <Project>{F3CD7440-9FC2-46A8-B118-F41F769EE874}</Project>
+      <Name>SimpleXam.CircleViewPlugin.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleXam.CircleViewPlugin.iOS\SimpleXam.CircleViewPlugin.iOS.csproj">
+      <Project>{8C6470B3-A2B2-4DE2-B3FC-BE767869F0BE}</Project>
+      <Name>SimpleXam.CircleViewPlugin.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.2</Version>
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>3.4.0.1008975</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets')" />
+</Project>

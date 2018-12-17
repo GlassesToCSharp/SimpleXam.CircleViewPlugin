@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SimpleXam.CircleViewPlugin.Shared", "SimpleXam.CircleViewPlugin.Shared\SimpleXam.CircleViewPlugin.Shared.shproj", "{E950F490-589E-400F-B72E-29B8C3892334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXam.CircleViewPlugin.iOS", "SimpleXam.CircleViewPlugin.iOS\SimpleXam.CircleViewPlugin.iOS.csproj", "{8C6470B3-A2B2-4DE2-B3FC-BE767869F0BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleXam.CircleViewPlugin.Android", "SimpleXam.CircleViewPlugin.Android\SimpleXam.CircleViewPlugin.Android.csproj", "{F3CD7440-9FC2-46A8-B118-F41F769EE874}"
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "SimpleXam.CircleViewPlugin.NuGet", "SimpleXam.CircleViewPlugin.NuGet\SimpleXam.CircleViewPlugin.NuGet.nuproj", "{324741D8-EDB5-4FCE-9F36-BC6235A5836F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C6470B3-A2B2-4DE2-B3FC-BE767869F0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6470B3-A2B2-4DE2-B3FC-BE767869F0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6470B3-A2B2-4DE2-B3FC-BE767869F0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6470B3-A2B2-4DE2-B3FC-BE767869F0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CD7440-9FC2-46A8-B118-F41F769EE874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CD7440-9FC2-46A8-B118-F41F769EE874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CD7440-9FC2-46A8-B118-F41F769EE874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CD7440-9FC2-46A8-B118-F41F769EE874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324741D8-EDB5-4FCE-9F36-BC6235A5836F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324741D8-EDB5-4FCE-9F36-BC6235A5836F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324741D8-EDB5-4FCE-9F36-BC6235A5836F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324741D8-EDB5-4FCE-9F36-BC6235A5836F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
