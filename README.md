@@ -5,7 +5,7 @@ This is a simple plugin to display a circle view. It is an extension from the Bo
 ## Implementation
 
 C#:
-
+```c#
     using SimpleXam.CircleViewPlugin;
     
     ...
@@ -14,9 +14,10 @@ C#:
     {
         Radius = 10
     };
-
+```
 XAML:
 
+```xml
     <ContentPage 
         xmlns="http://xamarin.com/schemas/2014/forms"
         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -27,3 +28,4 @@ XAML:
                 Radius="10" />
         </StackLayout>
     </ContentPage>
+```
