@@ -2,6 +2,8 @@
 
 This is a simple plugin to display a circle view. It is an extension from the BoxView.
 
+**IMPORTANT** This project has now been archived and will no longer be updated. If you still wish to use this control, please use the [SimpleXam.Fundamentals](https://github.com/ThomasBartleet/SimpleXam.Fundamentals) package, which includes the CircleView plugin.
+
 ## Implementation
 
 C#:
